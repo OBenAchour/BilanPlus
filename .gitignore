@@ -1,24 +1,18 @@
+# Dependencies
+node_modules/
+**/node_modules/
 
-/Backend/.env
-/Backend/node_modules/*
-/Backend/package-lock.json
-/Frontend/node_modules/*
-/Frontend/package-lock.json
+# Builds
+dist/
+**/dist/
+.angular/
 
-Backend/node_modules/*
-.vscode/*
-/Frontend/.vscode/*
-/Frontend/node_modules/*
-/Frontend/package-lock.json
-/Frontend/package.json
-/Frontend/tsconfig.json
-/Frontend/tsconfig.node.json
+# Env & logs
+.env
+*.log
+npm-debug.log*
 
-Frontend/.vscode/*
-Frontend/node_modules/*
-Frontend/package-lock.json
-Frontend/package.json
-Frontend/tsconfig.json
-Frontend/tsconfig.node.json
-.angular
-.vscode
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
